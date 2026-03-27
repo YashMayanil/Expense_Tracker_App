@@ -20,7 +20,7 @@ app.use(express.urlencoded({ extended: true }));// for parsing form data
 app.use(cookieParser());
 
 const corsOptions = {
-  origin:true,
+  origin: "https://expense-tracker-app-gilt-psi.vercel.app",
   credentials: true
 };
 
