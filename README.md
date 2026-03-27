@@ -1,16 +1,30 @@
 # Spendly — Expense Tracker Frontend
 
-A modern React frontend for the Expense Tracker backend.
+🌐 Live App: https://expense-tracker-app-gilt-psi.vercel.app (frontend)
 
 ## Tech Stack
 
-- **React 18** + **React Router v6**
-- **Axios** for API calls (with proxy to backend)
-- **Recharts** for charts (area + pie)
-- **React Hot Toast** for notifications
-- **Lucide React** for icons
-- **Vite** for blazing-fast dev server
-- Custom CSS with CSS variables (no CSS framework)
+- Frontend: React, Vite, Tailwind CSS
+- Backend: Node.js, Express.js  
+- Database: MongoDB Atlas  
+- Deployment: Vercel (Frontend), Render (Backend)
+
+## Features
+
+- 🔐 Auth (Login / Register) with JWT cookie
+- 📊 Dashboard with area chart + pie chart + stats
+- 💸 Expenses page with search, filter by category & status
+- ✅ Mark expenses as done/pending
+- ✏️ Add / Edit / Delete expenses
+- 👤 Profile page with spending stats
+- 📱 Responsive sidebar layout
+- 🌙 Dark theme with lime green accent
+
+##Screenshots
+
+<img width="756" height="826" alt="image" src="https://github.com/user-attachments/assets/a83c5017-26d4-4e3e-bb35-68757977871e" />
+<img width="1907" height="874" alt="image" src="https://github.com/user-attachments/assets/6e5e4bf2-3489-4c6a-96a5-edbaa0c26d29" />
+
 
 ## Setup
 
@@ -48,13 +62,3 @@ npm run dev
 | DELETE | `/api/v1/expense/remove/:id` | Delete expense |
 | PUT | `/api/v1/expense/:id/done` | Toggle done/undone |
 
-## Features
-
-- 🔐 Auth (Login / Register) with JWT cookie
-- 📊 Dashboard with area chart + pie chart + stats
-- 💸 Expenses page with search, filter by category & status
-- ✅ Mark expenses as done/pending
-- ✏️ Add / Edit / Delete expenses
-- 👤 Profile page with spending stats
-- 📱 Responsive sidebar layout
-- 🌙 Dark theme with lime green accent
