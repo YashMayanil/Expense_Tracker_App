@@ -12,15 +12,15 @@ dotenv.config({});
 const app =express()
 const PORT = process.env.PORT || 8000;
 
+app.set("trust proxy", 1);
+
 //middleware
 app.use(express.json());//for getting json data 
 app.use(express.urlencoded({ extended: true }));// for parsing form data
 app.use(cookieParser());
 
 const corsOptions = {
-  origin: [
-    "http://localhost:5173",
-  ],
+  origin:true,
   credentials: true
 };
 
