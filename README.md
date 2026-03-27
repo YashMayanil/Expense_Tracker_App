@@ -1,4 +1,4 @@
-# Spendly — Expense Tracker Frontend
+# Spendly — Expense Tracker 
 
 🌐 Live App: https://expense-tracker-app-gilt-psi.vercel.app (frontend)
 
